@@ -424,8 +424,7 @@ endif
 
 # Lib
 PRODUCT_COPY_FILES += \
-    vendor/wiko/l5510/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
-    vendor/wiko/l5510/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so
+    vendor/wiko/l5510/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so 
 
 PRODUCT_COPY_FILES += \
     vendor/wiko/l5510/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
